@@ -1,0 +1,238 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:2:1-119:12
+MERGED from [:stateprogressbar] /home/vital/Downloads/Cysmart_SmartBreath/src/stateprogressbar/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/f946807c43750c074ab4def81bbf45ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/7f9ba7dad474c19c907c868c3e8f66e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vital/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ead0f461c839fbc42569ee473d2c0f00/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/6dbadb864b83f955cb5f76208cc57009/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/70a10f17299afd338262cb70eb882979/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/31dd5001ae6864099dd923b03a99c92c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/3fcb0635a21d36fa273d411d07e734b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/1a2b2bf22e75c529c83cfd872be77de2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/b00fbe78dda4f7d5376628c9bf948924/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/1aa602edf71a956f5b65655f89c8d6cc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8b78a8d1a4003372271dd6d68fcfe4ed/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/454de9e13c7795f044a57aff7e5602c5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a2c34ebd94deb3e304c5a3692b464e31/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/26402cb45b40c62970306f4245ab6a30/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:3:5-34
+	android:versionName
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:5:5-35
+		INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+		INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:4:5-28
+		INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+		INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:13:5-15:35
+	android:required
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:15:9-32
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:14:9-53
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:18:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:20:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:22:22-76
+application
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:24:5-117:19
+MERGED from [:stateprogressbar] /home/vital/Downloads/Cysmart_SmartBreath/src/stateprogressbar/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-12:19
+MERGED from [:stateprogressbar] /home/vital/Downloads/Cysmart_SmartBreath/src/stateprogressbar/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vital/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ead0f461c839fbc42569ee473d2c0f00/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vital/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ead0f461c839fbc42569ee473d2c0f00/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:28:9-41
+	android:icon
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:27:9-41
+	android:allowBackup
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:30:9-45
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:25:9-62
+service#com.cypress.cysmart.BLEConnectionServices.BluetoothLeService
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:32:9-34:38
+	android:enabled
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:34:13-35
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:33:13-88
+receiver#com.cypress.cysmart.OTAFirmwareUpdate.OTAResponseReceiver
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:36:9-40:20
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:36:19-72
+intent-filter#action:name:com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:37:13-39:29
+action#com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:38:17-93
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:38:25-90
+receiver#com.cypress.cysmart.BLEStatusReceiver
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:41:9-45:20
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:41:19-52
+intent-filter#action:name:com.example.bluetooth.le.ACTION_GATT_DISCONNECTED
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:42:13-44:29
+action#com.example.bluetooth.le.ACTION_GATT_DISCONNECTED
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:43:17-92
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:43:25-89
+activity#com.cypress.cysmart.SplashPageActivity
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:47:9-58:20
+	android:label
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:50:13-45
+	android:configChanges
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:49:13-59
+	android:theme
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:51:13-75
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:48:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:52:13-57:29
+action#android.intent.action.MAIN
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:53:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:55:17-77
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:55:27-74
+activity#com.cypress.cysmart.HomePageActivity
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:59:9-101:20
+	android:launchMode
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:62:13-44
+	android:windowSoftInputMode
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:64:13-52
+	android:configChanges
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:61:13-59
+	android:theme
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:60:13-64
+meta-data#android.app.searchable
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:65:13-67:64
+	android:resource
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:67:17-51
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:66:17-54
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/octet-stream+data:pathPattern:.*\\.cyacd+data:scheme:content
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:71:13-78:29
+action#android.intent.action.VIEW
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:72:17-69
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:72:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:73:17-76
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:73:27-73
+data
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:74:17-77:48
+	android:host
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:85:21-37
+	android:scheme
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:77:21-45
+	android:pathPattern
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:76:21-53
+	android:mimeType
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:75:21-64
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.cyacd+data:scheme:file
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:81:13-89:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.cyacd+data:scheme:http
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:92:13-99:29
+category#android.intent.category.BROWSABLE
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:94:17-78
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:94:27-75
+activity#com.cypress.cysmart.OTAFirmwareUpdate.OTAFilesListingActivity
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:103:9-109:20
+	android:windowSoftInputMode
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:107:13-52
+	android:configChanges
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:105:13-59
+	android:theme
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:106:13-88
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:104:13-70
+activity#com.cypress.cysmart.DataLoggerFragments.DataLoggerHistoryList
+ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:110:9-116:20
+	android:windowSoftInputMode
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:114:13-52
+	android:configChanges
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:112:13-59
+	android:theme
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:113:13-88
+	android:name
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml:111:13-70
+uses-sdk
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+MERGED from [:stateprogressbar] /home/vital/Downloads/Cysmart_SmartBreath/src/stateprogressbar/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:stateprogressbar] /home/vital/Downloads/Cysmart_SmartBreath/src/stateprogressbar/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/f946807c43750c074ab4def81bbf45ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/f946807c43750c074ab4def81bbf45ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/7f9ba7dad474c19c907c868c3e8f66e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/7f9ba7dad474c19c907c868c3e8f66e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vital/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ead0f461c839fbc42569ee473d2c0f00/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vital/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ead0f461c839fbc42569ee473d2c0f00/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/6dbadb864b83f955cb5f76208cc57009/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/6dbadb864b83f955cb5f76208cc57009/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/70a10f17299afd338262cb70eb882979/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/70a10f17299afd338262cb70eb882979/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/31dd5001ae6864099dd923b03a99c92c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/31dd5001ae6864099dd923b03a99c92c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/3fcb0635a21d36fa273d411d07e734b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/3fcb0635a21d36fa273d411d07e734b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/1a2b2bf22e75c529c83cfd872be77de2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/1a2b2bf22e75c529c83cfd872be77de2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/b00fbe78dda4f7d5376628c9bf948924/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/b00fbe78dda4f7d5376628c9bf948924/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/1aa602edf71a956f5b65655f89c8d6cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/1aa602edf71a956f5b65655f89c8d6cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8b78a8d1a4003372271dd6d68fcfe4ed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8b78a8d1a4003372271dd6d68fcfe4ed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/454de9e13c7795f044a57aff7e5602c5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/454de9e13c7795f044a57aff7e5602c5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a2c34ebd94deb3e304c5a3692b464e31/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a2c34ebd94deb3e304c5a3692b464e31/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/26402cb45b40c62970306f4245ab6a30/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/vital/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/26402cb45b40c62970306f4245ab6a30/AndroidManifest.xml:20:5-44
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+		INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+		ADDED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml
+		INJECTED from /home/vital/Downloads/Cysmart_SmartBreath/src/AndroidManifest.xml

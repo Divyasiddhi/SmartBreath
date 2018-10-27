@@ -1,0 +1,4 @@
+#Sat Oct 27 18:08:45 IST 2018
+base.0=/home/vital/Downloads/Cysmart_SmartBreath/src/build/intermediates/transforms/dexMerger/debug/2
+path.0=classes.dex
+renamed.0=classes.dex
