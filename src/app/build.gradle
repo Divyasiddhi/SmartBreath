@@ -10,13 +10,13 @@ ext {
 
     libraryDescription = 'A myjson library'
 
-    siteUrl = 'https://github.com/nuuneoi/FBLikeAndroid'
+    siteUrl = 'https://github.com/siddhiscm/EWOT'
 
     libraryVersion = '1.0.0'
 
-    developerId = 'kofigyan2011'
-    developerName = 'Kofi Gyan'
-    developerEmail = 'kofigyan2011@gmail.com'
+    developerId = 'siddhi'
+    developerName = 'siddhi world'
+    developerEmail = 'siddhiscm@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -26,8 +26,7 @@ ext {
 android {
     compileSdkVersion 27
     defaultConfig {
-        //applicationId "app.json.com.myjson"
-        minSdkVersion 21
+        minSdkVersion 18
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -42,11 +41,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
     //noinspection GradleCompatible
-    compile 'com.android.support:appcompat-v7:27.1.1'
-    compile 'com.android.support:support-v4:27.1.0'
-    compile 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation project(path: ':stateprogressbar')
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'

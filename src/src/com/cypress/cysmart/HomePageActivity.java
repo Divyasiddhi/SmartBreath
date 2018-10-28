@@ -101,7 +101,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.Method;
 
-//import app.json.com.myjson.SampleActivity;
+import app.json.com.myjson.SampleActivity;
 
 
 import com.kofigyan.stateprogressbar.StateProgressBar;
@@ -119,6 +119,9 @@ public class HomePageActivity extends FragmentActivity implements
 
     String[] descriptionData = {"WarmUp","CoolDown","Oxygen","Sprint","EPO","HGS"};
     StateProgressBar stateProgressBar;
+
+
+    SampleActivity smartBreath;
 
     /**
      * Used to manage connections of the Blue tooth LE Device
@@ -280,6 +283,10 @@ public class HomePageActivity extends FragmentActivity implements
                 // TODO Auto-generated method stub
                 Toast.makeText(getApplication().getBaseContext(), "This is my Toast message!",
                         Toast.LENGTH_LONG).show();
+
+                Intent i = new Intent(getApplicationContext(),SampleActivity.class);
+                startActivity(i);
+
 
             }
         });

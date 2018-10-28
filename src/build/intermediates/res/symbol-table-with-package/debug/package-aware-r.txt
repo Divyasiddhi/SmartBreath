@@ -399,6 +399,7 @@ color accent_material_dark
 color accent_material_light
 color actionbar_bg_color
 color actionbar_bg_color_light
+color app_black
 color background_color
 color background_floating_material_dark
 color background_floating_material_light
@@ -414,6 +415,9 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color dark_blue
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
@@ -428,6 +432,7 @@ color foreground_material_light
 color foreground_text_color
 color green
 color grey
+color greyColor
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color light_blue
@@ -476,6 +481,7 @@ color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color white_color
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -694,6 +700,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable about
 drawable accelometer
+drawable alert
 drawable appicon
 drawable arrow_bw
 drawable back_btn
@@ -727,6 +734,7 @@ drawable capsense_btn_bg
 drawable capsense_buttons
 drawable capsense_proimity
 drawable capsense_slider
+drawable cell_shape
 drawable checkbox_checked
 drawable checkbox_selector
 drawable checkbox_unchecked
@@ -742,6 +750,8 @@ drawable cypress
 drawable delete_normal
 drawable device_info
 drawable document_icon
+drawable drawable_circle_dark_blue
+drawable drawable_circle_grey
 drawable drawer_shadow
 drawable emulator
 drawable exit_active
@@ -764,6 +774,8 @@ drawable heart
 drawable heart_rate
 drawable home
 drawable ic_launcher
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable ic_more_vert_white_24dp
 drawable info_icon
 drawable left_menu_active
@@ -830,6 +842,7 @@ drawable speed
 drawable splash_bg
 drawable square_button
 drawable square_button_black
+drawable style_circular
 drawable temp
 drawable themometer
 drawable thermometer_carousel
@@ -844,9 +857,12 @@ id CTRL
 id FUNCTION
 id ListView_gatt_services
 id META
+id P1
 id SHIFT
 id SYM
 id about_image
+id aboutlinearlayout
+id aboutrelativelayout
 id abt_parent
 id acc_context_menu
 id acc_filter_configuration
@@ -930,9 +946,12 @@ id btnzero
 id button
 id buttonPanel
 id button_image
+id button_reset
+id button_start_pause
 id cadence
 id cadence_calorie_layout
 id calories_burnt
+id cancel
 id cancel_action
 id capsenseViewpager
 id capsense_buttons_grid
@@ -975,6 +994,7 @@ id cypress_semiconductors
 id cysmart_copyright
 id cysmart_version
 id dash
+id dashrelativelayout
 id data_logger_history_list
 id decor_content_parent
 id default_activity_button
@@ -1017,6 +1037,7 @@ id forever
 id four
 id frag_list
 id fragment_content
+id frame_container
 id gatt_service_carousel
 id gesture_btn
 id gls_carb_id
@@ -1087,6 +1108,7 @@ id lin0
 id lin1
 id lin2
 id lin3
+id linTabHeader
 id line1
 id line3
 id linear
@@ -1114,6 +1136,8 @@ id list_item
 id locate_device
 id log
 id logo_image
+id mainlinearlayout
+id mainrelativelayout
 id media_actions
 id message
 id microphone_btn
@@ -1160,12 +1184,20 @@ id pressure_chart_container
 id pressure_graph
 id pressure_tv_title
 id pressure_value
+id progressBar
 id progress_bar_bottom_rel_lay
 id progress_bar_top_rel_lay
 id progress_circular
 id progress_horizontal
+id progress_relativelayout
 id promity
 id properties_parent
+id protocolpage2frag_relativelayout
+id protocolpage3frag_relativelayout
+id protocolpage4frag_relativelayout
+id protocolpage5frag_relativelayout
+id protocolpage6frag_relativelayout
+id protocolpagefrag_relativelayout
 id proximity_bar
 id proximity_meter
 id proximity_view_1
@@ -1181,6 +1213,8 @@ id record_time
 id record_time_offset
 id recording_time
 id recording_time_data
+id relBtn
+id relFrame
 id relative
 id relativetop
 id right
@@ -1257,6 +1291,9 @@ id submenuarrow
 id submit_area
 id swipe_container
 id tabMode
+id tableLayout1
+id tableRow1
+id tableRow4
 id tag_transition_group
 id temp_chart_container
 id temp_graph
@@ -1265,6 +1302,7 @@ id temp_tv_title
 id temp_unit
 id temp_value
 id text
+id text1
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
@@ -1272,6 +1310,7 @@ id textView
 id textView3
 id textView4
 id text_uuid
+id text_view_countdown
 id thermometer_icon
 id three
 id tilt
@@ -1291,7 +1330,10 @@ id transmission_rel_layout
 id tv_pair
 id tv_title
 id two
+id txtAboutUs
+id txtDashboard
 id txtItem
+id txtProtocalInfo
 id txt_file_name
 id txtascii
 id txtblue
@@ -1328,7 +1370,9 @@ id upgrade_progress_bar_bottom_filename
 id upgrade_progress_bar_top
 id upgrade_progress_bar_top_filename
 id useLogo
+id v1
 id values
+id viewPager
 id viewgroup
 id voiceconversion
 id voiceplayback
@@ -1382,7 +1426,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout about_fragment
+layout aboutusfrag
 layout activity_main
+layout activity_main_sb
 layout activity_splash
 layout api_key_dialog_alert
 layout ascii_value_popup
@@ -1397,6 +1443,7 @@ layout carousel_fragment_item
 layout contact_us_fragment
 layout custom_graphview
 layout cyclingspeed_n_cadence
+layout dashboardfrag
 layout data_logger_list_item
 layout datalogger
 layout datalogger_list
@@ -1443,6 +1490,14 @@ layout ota_firmware_files_list
 layout ota_upgrade_type_selection
 layout profile_control
 layout profile_findme
+layout progressbarfrag
+layout protocalinfofrag
+layout protocolpage2frag
+layout protocolpage3frag
+layout protocolpage4frag
+layout protocolpage5frag
+layout protocolpage6frag
+layout protocolpagefrag
 layout rdk_emulator_view_landscape
 layout rdk_emulator_view_portrait
 layout rdk_microphone
@@ -1457,10 +1512,16 @@ layout sensor_hub
 layout servicediscovery_temp_fragment
 layout support_simple_spinner_dropdown_item
 menu global
+mipmap ic_launcher
+mipmap ic_launcher_round
 raw beep
 raw bonjourflac
 raw flacmorning
 raw pcm
+raw protocol
+string Cancel
+string Start
+string _3_9_mins
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1490,6 +1551,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string about
 string alert_csc_weight
 string alert_message_bluetooth_connect
 string alert_message_bluetooth_disconnect
@@ -1529,9 +1591,11 @@ string alert_message_write_error
 string alert_message_write_error_code
 string alert_message_yes
 string alert_title_clear_cache
+string altitude
 string apikey_requirement_text
 string app_name
 string armpit
+string basic_training_protocol
 string battery_info_fragment
 string battery_read
 string battery_start_notify
@@ -1650,11 +1714,14 @@ string dl_service_discovery_request
 string dl_service_discovery_status
 string dl_status_failure
 string dl_status_success
+string drs
 string ear
 string enable_notify_failed
 string exchange_mtu
 string exchange_mtu_request
 string exchange_mtu_rsp
+string exercise_for_6_mins_at_a_comfortable_pace_till_you_reach_your_target_pulse_rate
+string exercise_for_8_mins_at_a_comfortable_pace_till_you_reach_your_target_pulse_rate
 string exponent
 string find_immediate_alert
 string find_linkloss
@@ -1775,6 +1842,7 @@ string image_sensor_hub_temperature
 string image_splash_logo
 string image_transmission_background_circle_logo
 string image_transmission_foreground_circle_logo
+string increase_pace_to_sprint_and_switch_to_high_altitude_2_maintain_for_15_seconds
 string intestine
 string key_left_alt
 string key_left_ctrl
@@ -1784,8 +1852,11 @@ string key_right_alt
 string key_right_ctrl
 string key_right_gui
 string key_right_shift
+string level_until_you_have_been_fully_recovered_for_2_mins_o2_sat_climbs_to_99
 string loading
 string log
+string maintain_pace_at_a_comfortable_level_o2_sat_climbs_to_99
+string method
 string motion_clear
 string motion_clear_data
 string motion_default_value
@@ -1806,6 +1877,7 @@ string navigation_drawer_child_home
 string navigation_drawer_child_mobile
 string navigation_drawer_close
 string navigation_drawer_open
+string notes_amp_mechanism
 string ota_alert_file_application
 string ota_alert_file_applicationstackcomb
 string ota_alert_file_applicationstacksep_app_sel
@@ -1838,6 +1910,7 @@ string ota_toast_stack_file_selected
 string ota_upgrade
 string ota_verify_checksum
 string ota_verify_row
+string phase
 string play_back
 string power_off
 string power_on
@@ -1854,6 +1927,11 @@ string progress_message_reconnect
 string progress_message_service_discovering
 string progress_tile_service_discovering
 string property
+string protcol6
+string protocol2
+string protocol3
+string protocol4
+string protocol5
 string proximity
 string proximity_bar_fifty
 string proximity_bar_hundred
@@ -1905,7 +1983,10 @@ string share
 string slider
 string source
 string speech_text
+string start_on_high_altitude_and_exercise_at_a_moderate_pace
+string start_on_high_altitudeuntil_warmed_up_o2_sat_usually_drops_to_81
 string status_bar_notification_info_overflow
+string time
 string title_about
 string title_contact
 string title_devices
@@ -1930,8 +2011,10 @@ string toe_2
 string tt_celcius
 string tt_fahren_heit
 string tympanum
+string typical_time
 string unit
 string value
+string version
 string view_microphone
 string view_trackpad
 string volume
@@ -1944,6 +2027,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style AppBaseTheme
 style AppTheme
+style AppTheme1
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
